@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:scrollbars="vertical">
+
+    <!-- EditText para el título del evento -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilEventTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etEventTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/event_title"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- EditText para la fecha del evento -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilEventDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etEventDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/event_date"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- EditText para la descripción del evento -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilEventDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etEventDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/event_description"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- EditText para la ubicación del evento -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilEventLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etEventLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/event_location"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- EditText para el tiempo de aviso del evento -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilEventReminderTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etEventReminderTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/event_reminder_time"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Botón para agregar el evento -->
+    <Button
+        android:id="@+id/btnAddEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_event"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

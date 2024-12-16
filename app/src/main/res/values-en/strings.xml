@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Api</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="registro">Register</string>
+    <string name="secret_respuesta">Secret Answer</string>
+    <string name="event_title">Title of event</string>
+    <string name="event_date">Date of event</string>
+    <string name="event_description">Description of event</string>
+    <string name="event_location">Location of event</string>
+    <string name="event_reminder_time">Time of reminder (minutes)</string>
+    <string name="add_event">Add event</string>
+    <string name="title_info_event">Title: </string>
+    <string name="description_info_event">Description: </string>
+    <string name="location_info_event">Location: </string>
+    <string name="date_info_event">Date: </string>
+    <string name="reminder_info_event">Reminder (minutes): </string>
+    <string name="delete_info_event">Delete</string>
+    <string name="close_info_event">Close</string>
+    <string name="crear_evento_list_events">New event</string>
+    <string name="toast_delete_event">The event has been deleted</string>
+    <string name="toast_error_delete_event">Could not delete event</string>
+    <string name="export_data_list_events">Export data</string>
+    <string name="toast_export_data_success">CSV file exported successfully in Downloads</string>
+    <string name="toast_export_data_error">Error exporting CSV file</string>
+</resources>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">My Api</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="registro">Registrarse</string>
+    <string name="secret_respuesta">Respuesta secreta</string>
+    <string name="event_title">Título del evento</string>
+    <string name="event_date">Fecha del evento</string>
+    <string name="event_description">Descripción del evento</string>
+    <string name="event_location">Ubicación del evento</string>
+    <string name="event_reminder_time">Tiempo de aviso (minutos)</string>
+    <string name="add_event">Agregar Evento</string>
+    <string name="title_info_event">Titulo:</string>
+    <string name="description_info_event">Descripción:</string>
+    <string name="location_info_event">Ubicación:</string>
+    <string name="date_info_event">Fecha:</string>
+    <string name="reminder_info_event">Tiempo de aviso (minutos):</string>
+    <string name="delete_info_event">Eliminar</string>
+    <string name="close_info_event">Cerrar</string>
+    <string name="crear_evento_list_events">Crear Evento</string>
+    <string name="toast_delete_event">El evento se ha eliminado</string>
+    <string name="toast_error_delete_event">No se ha podido eliminar el evento</string>
+    <string name="export_data_list_events">Exportar datos</string>
+    <string name="toast_export_data_success">Archivo CSV exportado con éxito en Descargas</string>
+    <string name="toast_export_data_error">Error al exportar el archivo CSV</string>
+</resources>
