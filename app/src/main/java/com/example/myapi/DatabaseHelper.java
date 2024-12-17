@@ -147,5 +147,24 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         }
     }
 
+    public boolean deleteUser(int id) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        String whereClause = COLUMN_ID + " = ?";
+        String[] selectionArgs = new String[]{ String.valueOf(id) };
+        int affectedRows = db.delete(TABLE_USERS, whereClause, selectionArgs);
 
+        return affectedRows > 0;
+    }
+
+    public boolean resetPassword(int id, String newPassword) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        String whereClause = COLUMN_ID + " = ?";
+        String[] whereArgs = new String[]{ String.valueOf(id) };
+
+        ContentValues values = new ContentValues();
+        values.put(COLUMN_PASSWORD, newPassword);
+
+        int affectedRows = db.update(TABLE_USERS, values, whereClause, whereArgs);
+        return affectedRows > 0;
+    }
 }

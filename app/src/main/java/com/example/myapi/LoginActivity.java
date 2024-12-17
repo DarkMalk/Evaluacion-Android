@@ -52,9 +52,8 @@ public class LoginActivity extends AppCompatActivity {
             Intent i = new Intent(LoginActivity.this, ListEvents.class);
             i.putExtra("myUser", user);
             startActivity(i);
-            finish();
         } else {
-            Toast.makeText(this, "Usuario o contraseña incorrectos", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.toast_error_login), Toast.LENGTH_SHORT).show();
         }
     }
 

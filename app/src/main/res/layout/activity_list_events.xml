@@ -28,13 +28,20 @@
             android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"/>
         <Button
-            android:id="@+id/btnExportData"
+            android:id="@+id/btnOpenSpinner"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/export_data_list_events"
+            android:text="@string/btn_text_open_spinner"
             android:layout_gravity="center"
             android:layout_marginStart="8dp"
             android:layout_marginBottom="8dp"
             android:layout_marginTop="8dp"/>
     </LinearLayout>
+    <Spinner
+        android:id="@+id/spinnerOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:spinnerMode="dialog"
+        android:visibility="invisible"
+        tools:ignore="Suspicious0dp" />
 </LinearLayout>

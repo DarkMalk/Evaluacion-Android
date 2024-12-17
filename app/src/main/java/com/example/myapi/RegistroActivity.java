@@ -46,11 +46,11 @@ public class RegistroActivity extends AppCompatActivity {
         boolean userExists = dbHelper.isUserExist(username); // Corregir la llamada al método
 
         if (userExists) { // Usamos la variable userExists directamente
-            Toast.makeText(this, "Este usuario ya existe.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.toast_user_already_exist), Toast.LENGTH_SHORT).show();
         } else {
             // Insertamos al nuevo usuario
             dbHelper.insertUser(new User(username, password, secretAnswer));
-            Toast.makeText(this, "Usuario registrado con éxito.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.toast_user_register), Toast.LENGTH_SHORT).show();
         }
 
 
