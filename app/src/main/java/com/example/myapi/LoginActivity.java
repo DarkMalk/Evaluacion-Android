@@ -64,6 +64,6 @@ public class LoginActivity extends AppCompatActivity {
 
     private void openForgotPasswordActivity() {
         // Abre la actividad para recuperar contraseña
-        startActivity(new Intent(LoginActivity.this, ForgotPasswordActivity.class));
+        startActivity(new Intent(LoginActivity.this, ForgotPassword.class));
     }
 }

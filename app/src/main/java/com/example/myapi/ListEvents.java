@@ -131,7 +131,6 @@ public class ListEvents extends AppCompatActivity {
 
             Toast.makeText(context, getString(R.string.toast_export_data_success), Toast.LENGTH_LONG).show();
         } catch (Exception e) {
-            e.printStackTrace();
             Toast.makeText(context, getString(R.string.toast_export_data_success), Toast.LENGTH_LONG).show();
         }
     }

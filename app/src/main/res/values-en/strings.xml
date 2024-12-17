@@ -46,4 +46,5 @@
     <string name="alert_dialog_description">If you accept, you will lose all your information</string>
     <string name="alert_dialog_button_confirm">Accept</string>
     <string name="alert_dialog_button_cancel">Cancel</string>
+    <string name="error_dont_match_secret_response">Your answer does not match</string>
 </resources>
