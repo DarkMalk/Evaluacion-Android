@@ -81,7 +81,7 @@ public class ForgotPassword extends AppCompatActivity {
             }
 
             db.resetPassword(user.getId(), newPassword);
-            Toast.makeText(this, "Se ha realizado la recuperacion de contraseña exitosamente", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.toast_reset_password_success), Toast.LENGTH_SHORT).show();
             finish();
         });
     }
